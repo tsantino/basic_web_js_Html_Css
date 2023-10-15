@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    color: slategray;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h1,
+h2 {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+img {
+    width: 35%;
+}
+
+footer {
+    margin-top: 70px;
+    background-color: orange;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        width: 120%;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    h2 {
+        font-size: 350%;
+    }
+}
